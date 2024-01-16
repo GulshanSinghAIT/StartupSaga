@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: #FFF4E7;
+}
 .cloud1{
     position: absolute;
     right: -10px;

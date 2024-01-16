@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cloud1{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+.cloud2{
+    position: absolute;
+    left: -15px;
+    top: -15px;
+}
+.cloud3{
+    position: absolute;
+    left: -15px;
+    top: 10em;
+}
+.mount1{
+    bottom:2.4em;
+    right: -20px;
+}
+.mount2{
+    bottom:1.8em;
+    left: -20px;
+}
+.base{
+    left: -10px;
+    bottom: -25px;
+}
+.baseboard{
+    position: absolute;
+    bottom: 95%;
+    left: 2%;
+}
+.cacleft{
+    position: absolute;
+    bottom: 48%;
+    left: 3.6em;
+}
+.cacright{
+    position: absolute;
+    bottom: 60%;
+    right: 7em;
+}
+@keyframes identifier {
+    
+}
+@media (max-width: 768px) {
+    .baseboard{
+        position: absolute;
+        bottom: 87%;
+        left: 5%;
+    } 
+    .cacleft{
+        display: none;
+        position: absolute;
+        bottom: 58%;
+        left: 4.5em;
+    }
+    .mount2{
+        top:10.5em;
+        left: -20px;
+    }
+}
+@media (max-width: 375px){
+    .mount2{
+        top:15em;
+        left: -20px;
+    }
+}
